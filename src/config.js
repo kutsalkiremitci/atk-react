@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let config = {
-  API_URL: "http://localhost/huatki-server/api",
+  API_URL: "http://localhost/atk-react/server/api",
 }
 axios.defaults.baseURL = config.API_URL;
 
